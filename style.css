@@ -1,0 +1,350 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-size: cover;
+    text-align: center;
+
+    color: #777;
+}
+.container {
+  background-color: rgba(255, 255, 255, 0.85);
+  max-width: 100%px;
+  margin: 0 auto;
+  border-radius: 15px;
+  background-image: url(./bg-header-desktop.png);
+  background-repeat: no-repeat;
+
+}
+.logo-wrapper {
+  width: 120px;
+ height: 120px;
+  margin: 0 auto 30px;
+  background-size: cover;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo-wrapper img{
+  width: 60px;
+  height: auto;
+}
+.background{
+    position: absolute;
+  width: 100%;
+  height: 50%;
+}
+.logo{
+    height: 125px;
+    width: 125px;
+}
+h1 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+.subtitle {
+    color: #777;
+  max-width: 500px;
+  margin: 0 auto 30px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.buttons {
+ 
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  gap: 20px;
+  
+}
+.btn {
+  height:30px ;
+  width: 140px;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  padding: 7px 25px;
+  border-radius:  40px;
+  color: white;
+  font-size: 17px;
+}
+.btn.ios {
+  background-color: hsl(171, 66%, 44%);
+}
+.btn.mac {
+  background-color:  hsl(233, 100%, 69%);
+}
+.snippets {
+    padding: 50px 20px;
+    text-align: center;
+    max-width: 500px;
+    margin: auto;
+  } 
+  
+  .snippets h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .snippets p {
+    font-size: 16px;
+    color: #7c8a99;
+    line-height: 1.6;
+  }
+   .features {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .feature {
+    margin-bottom: 40px;
+  }
+  
+  .feature h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .feature p {
+    padding-left: 30px;
+    font-size: 16px;
+    color: #7c8a99;
+    line-height: 1.5;
+  }
+  .macbook-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+    gap: 30px;
+   
+  }
+  
+  .macbook-left img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  .access-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+  gap: 50px;
+}
+.device-img {
+  padding-top:40px;
+  padding-bottom: 40px;
+  margin:0 auto;
+  height:auto;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.access-right {
+  max-width: 500px;
+  text-align: center; 
+}
+
+.access-right h1 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 20px;
+}
+.access-right p {
+    color: #7c8a99;
+    font-size: 14px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  
+  .access-right h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+  }
+.features-section {
+    padding: 10px 20px;
+    text-align: center;
+  }
+  
+  .features-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+  
+  .feature {
+    flex: 1;
+    height: auto;
+    max-width: 500px;
+    text-align: center;
+  }
+  
+  .feature .icon {
+    display: flex;
+    font-size: 40px;
+    color: #58a6ff;
+    margin-bottom: 20px;
+    align-items: center;
+    padding-left: 45%;
+  }
+  
+  .feature h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    /* padding-left: 40px; */
+  }
+
+.feature p {
+  height: auto;
+  max-width: 500px;  
+  margin-top: 10px;
+  padding-left:10px ;
+  /* padding-left: 70px; */
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.logos{
+  display: flex;
+  justify-content: space-around;
+}
+
+.logos img {
+  max-width: 130px;
+}
+
+
+.download-section {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: white;
+  }
+  
+  .download-container {
+    max-width: 580px;
+    margin: 0 auto;
+  }
+  
+  .download-container h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .download-container p {
+    font-size: 16px;
+    color: #7c8a99;
+    margin-bottom: 30px;
+    line-height: 1.6;
+  }
+  .btn mac:hover {
+  color: #bdd1c6;
+  opacity: 0.5;
+  }
+
+.btn ios:hover {
+  color: #bfd1c7;
+  opacity: 0.5;
+}
+.footer {
+    background-color: #f3f9f7;
+    padding: 60px 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+  }.footer-logo img {
+    margin-left: 10px;
+    width: 50px;
+  }
+  
+  .footer-links {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    
+    gap: 120px;
+  }
+  .footer-links a {
+    text-decoration: none;
+    color: #0f0f0f;
+    font-size: 14px;
+    transition:  #21b662 0.3s ease-in;
+  }
+  
+  .footer-links p:hover {
+    color: #25c068;
+  }
+  .footer-social i {
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 22px;
+    color: #495057;
+    transition: #21b662 0.3s ease;
+  }
+  
+  .footer-social i:hover {
+  
+    color: #21b662;
+  }
+
+  @media (max-width:768px) {
+    .buttons{
+      flex-direction: column;
+      align-items: center;
+    }
+     .macbook-section{
+      flex-direction: column;
+      align-items: center;
+    } 
+    .access-section{
+      flex-direction: column;
+      align-items: center;
+    }
+    .features {
+      width: 100%;
+      align-items: center;
+      text-align: center;
+      
+    }
+    .features-container{
+      flex-direction: column;
+      align-items: center;
+    }
+    .logos{
+      flex-direction: column;
+      align-items: center;
+      gap: 3rem;
+    }
+    .footer-container{
+      flex-direction: column;
+      align-items: center;
+    }
+    .footer-links{
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      padding-top: 20px;
+
+    }
+  }
